@@ -16,6 +16,6 @@ public class HelloController {
 
     @RequestMapping(value = "/say", method = RequestMethod.GET)
     public String hello(){
-        return "你好";
+        return "你好！";
     }
 }
